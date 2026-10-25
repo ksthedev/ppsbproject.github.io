@@ -16,4 +16,6 @@ Art. 5º: Se algum jogador, ao ser punido em um servidor, e após isso outros se
 Art 6º: Punições em caso de injúria racial, homofobia, capacitismo e quaisquer outros tipos de preconceitos graves devem ser obrigatoriamente ao menos banimento permanente, caso contrário, o administrador ou o servidor podem ser suspensos do sistema.
 
 Art 7º: Punições de silenciamento são punições globais, isso é, se algum servidor pune e anuncia um jogador punido por silenciamento, dependendo do motivo exato, outros servidores podem ou não puni-lo independentemente dos sub-nichos.
+
+Art 8º: As provas das punições não são por responsabilidade da PPSB, e sim, do servidor de origem a punição de algum jogador.
 "
