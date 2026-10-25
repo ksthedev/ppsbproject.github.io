@@ -1,0 +1,287 @@
+/* Estilos do site PPSB */
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    background-color: #0b0d0f;
+    color: #f5f7f8;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+header {
+    border-bottom: 1px solid #292e31;
+    background-color: #0b0d0f;
+}
+
+.header-content {
+    min-height: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.logo {
+    color: #f5f7f8;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.logo span {
+    color: #83dce8;
+}
+
+nav {
+    display: flex;
+    gap: 24px;
+}
+
+nav a {
+    color: #c0c7ca;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #83dce8;
+}
+
+.discord-button,
+.main-button {
+    display: inline-block;
+    padding: 10px 16px;
+    border-radius: 5px;
+    background-color: #83dce8;
+    color: #091013;
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.discord-button:hover,
+.main-button:hover {
+    background-color: #b5f1f7;
+}
+
+.hero {
+    padding-top: 100px;
+    padding-bottom: 110px;
+}
+
+.small-title,
+.section-label {
+    color: #83dce8;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+}
+
+h1 {
+    margin: 18px 0;
+    font-size: clamp(38px, 6vw, 62px);
+    line-height: 1.1;
+}
+
+h1 span {
+    color: #d9f8fb;
+}
+
+.hero-text {
+    max-width: 620px;
+    margin-bottom: 28px;
+    color: #b8c0c3;
+    font-size: 17px;
+}
+
+.section {
+    padding-top: 75px;
+    padding-bottom: 75px;
+    border-top: 1px solid #292e31;
+}
+
+h2 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 32px;
+    line-height: 1.25;
+}
+
+.section-text {
+    max-width: 760px;
+    color: #b8c0c3;
+}
+
+.darker {
+    background-color: #111518;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+    margin-top: 30px;
+}
+
+.card {
+    padding: 22px;
+    border: 1px solid #30383c;
+    border-radius: 7px;
+    background-color: #0b0d0f;
+}
+
+.card-number {
+    color: #83dce8;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.card h3 {
+    margin: 12px 0 8px;
+    font-size: 19px;
+}
+
+.card p {
+    margin-bottom: 0;
+    color: #b8c0c3;
+    font-size: 14px;
+}
+
+.rules-list {
+    padding-left: 22px;
+    color: #c5cccf;
+}
+
+.rules-list li {
+    padding: 7px 0;
+}
+
+.note {
+    margin-top: 25px;
+    padding: 14px 16px;
+    border-left: 3px solid #83dce8;
+    background-color: #111518;
+    color: #aeb9bd;
+    font-size: 13px;
+}
+
+.contact-section {
+    padding: 70px 0;
+    border-top: 1px solid #292e31;
+    background-color: #111518;
+}
+
+.contact-content {
+    text-align: center;
+}
+
+.contact-content h2 {
+    margin-bottom: 12px;
+}
+
+.contact-content > p:not(.section-label):not(.small-note) {
+    max-width: 550px;
+    margin: 0 auto 24px;
+    color: #b8c0c3;
+}
+
+.small-note {
+    margin-top: 12px;
+    color: #7f8b90;
+    font-size: 12px;
+}
+
+footer {
+    border-top: 1px solid #292e31;
+}
+
+.footer-content {
+    min-height: 85px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.footer-content p {
+    color: #899499;
+    font-size: 12px;
+}
+
+@media (max-width: 650px) {
+    .header-content {
+        padding: 15px 0;
+        flex-wrap: wrap;
+    }
+
+    nav {
+        order: 3;
+        width: 100%;
+        justify-content: space-between;
+        gap: 12px;
+    }
+
+    nav a {
+        font-size: 13px;
+    }
+
+    .hero {
+        padding-top: 70px;
+        padding-bottom: 75px;
+    }
+
+    .hero-text {
+        font-size: 15px;
+    }
+
+    .cards {
+        grid-template-columns: 1fr;
+    }
+
+    .section {
+        padding-top: 55px;
+        padding-bottom: 55px;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+
+    .footer-content {
+        padding: 18px 0;
+        flex-wrap: wrap;
+    }
+
+    .footer-content p {
+        margin: 0;
+    }
+}
+
+@media (max-width: 380px) {
+    .discord-button {
+        padding: 8px 10px;
+        font-size: 12px;
+    }
+
+    nav {
+        gap: 8px;
+    }
+
+    nav a {
+        font-size: 12px;
+    }
+}
