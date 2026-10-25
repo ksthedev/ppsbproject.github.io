@@ -1,7 +1,10 @@
 Mudanças de artigos:
 
 25/10/2026
+
 Art 8º adicionado.
+
+
 "
 Art. 1º: O sistema tem total permissão de retirar um administrador de um servidor do sistema por um determinado período, desde que, tenha cometido um erro aparte de tempo de punição ou motivo.
 
